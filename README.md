@@ -1,5 +1,7 @@
 # (my) Sublime setup
 
+![Sublime Text Preview](sublime-text-preview.png)
+
 ### Install Package Control
 
 [https://packagecontrol.io/installation](https://packagecontrol.io/installation)
