@@ -82,13 +82,8 @@
 	{ "keys": ["n", "n", "n"], "command": "advanced_new_file_new"},
 	{ "keys": ["n", "n", "r"], "command": "advanced_new_file_move"},
 	{ "keys": ["n", "n", "d"], "command": "advanced_new_file_delete", "args": { "current": true }},
-	{
-        "keys": ["super+."],
-        "command": "insert_path",
-        "args": {
-            "type": "relative"
-        }
-    }
+	{ "keys": ["super+."], "command": "insert_path", "args": { "type": "relative" }},
+    { "keys": ["super+g"], "command": "find_all_under" }
 ]
 ```
 	
