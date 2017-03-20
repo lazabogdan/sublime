@@ -23,6 +23,7 @@
 6. [LESS](https://github.com/danro/Less-sublime) - Less Syntax highlighting
 7. [FuzzyFilePath](https://github.com/sagold/FuzzyFilePath) - File paths autocompletion
 8. [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight) - Syntax highlighting for `.vue` files (single-file Vue.js components)
+9. [DocBlockr](https://github.com/spadgos/sublime-jsdocs) - Simplifies writing DocBlock comments in Javascript, PHP, CoffeeScript, Actionscript, C & C++
 
 ### Install Color Scheme
 
@@ -40,22 +41,18 @@
 	"always_show_minimap_viewport": false,
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Colorsublime - Themes/Facebook.tmTheme",
-	"font_size": 14,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text.html",
+	"folder_exclude_patterns": [ "dist" ],
+	"font_size": 13,
+	"ignored_packages": [ "Vintage" ],
+	"indent_guide_options": [ "draw_normal", "draw_active" ],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"material_theme_accent_red": true,
 	"material_theme_tabs_separator": true,
 	"overlay_scroll_bars": "enabled",
 	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"use_simple_full_screen": true
 }
 ```
